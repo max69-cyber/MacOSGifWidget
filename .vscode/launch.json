@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:MacOSGifWidget}",
+            "name": "Debug MacOSGifWidget",
+            "target": "MacOSGifWidget",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug MacOSGifWidget"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:MacOSGifWidget}",
+            "name": "Release MacOSGifWidget",
+            "target": "MacOSGifWidget",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release MacOSGifWidget"
+        }
+    ]
+}
