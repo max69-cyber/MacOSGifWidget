@@ -9,7 +9,8 @@ let package = Package(
     targets: [
         .executableTarget(
             name: "MacOSGifWidget",
-            path: "Sources/MacOSGifWidget"
+            path: "Sources/MacOSGifWidget",
+            exclude: ["Info.plist"]
         )
     ]
 )

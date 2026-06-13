@@ -67,18 +67,29 @@ static let giphyAPIKey = "YOUR_GIPHY_API_KEY"
 
 Требования: Xcode / Swift toolchain (macOS 13+).
 
-Выполните следующие команды в терминале:
+### Быстрый запуск (для разработки)
 
 ```bash
+git clone https://github.com/rayxaus/MacOSGifWidget
 cd MacOSGifWidget
 swift run
 ```
 
-Для запуска в фоне (без привязки к терминалу):
+### Установка с автозапуском
+
+Скрипт сам соберёт приложение, установит его в `~/Applications/` и добавит в автозапуск при входе в систему:
 
 ```bash
-swift build -c release
-./.build/release/MacOSGifWidget &
+git clone https://github.com/rayxaus/MacOSGifWidget
+cd MacOSGifWidget
+bash install.sh
+```
+
+Чтобы полностью удалить приложение и убрать из автозапуска:
+
+```bash
+cd MacOSGifWidget
+bash uninstall.sh
 ```
 
 ---
