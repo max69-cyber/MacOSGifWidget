@@ -10,6 +10,18 @@
 
 Приложение написано на Swift + AppKit, собирается через Swift Package Manager без Xcode.
 
+### Скриншоты виджета:
+
+1. Обычный вид:
+<img width="1728" height="1117" alt="Screenshot 2026-06-13 at 8 22 31 PM" src="https://github.com/user-attachments/assets/5a31765f-d7bc-4a6c-96ff-8f77147e29fe" />
+
+2. Увеличение виджета:
+<img width="1728" height="1117" alt="Screenshot 2026-06-13 at 8 23 05 PM" src="https://github.com/user-attachments/assets/8ec03bd6-75f9-4f39-999e-fca0dc5d5a6c" />
+
+3. Контекстное меню айтема в менюбаре:
+<img width="164" height="117" alt="Screenshot 2026-06-13 at 8 16 50 PM" src="https://github.com/user-attachments/assets/5a5b976e-59d6-428b-addd-c2a49e05c1e6" />
+
+
 ---
 
 ## Получение Giphy API ключа
